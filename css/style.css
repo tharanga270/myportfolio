@@ -1,0 +1,115 @@
+
+/*header start*/
+.bg-body-black {
+    background-color: rgba(51, 51, 51, 0.8) !important;
+}
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    color: white;
+}
+#navbarNav ul li a {
+    color: white;
+}
+#navbarNav ul li a:hover {
+    color: #F86449;
+}
+/*header end*/
+
+/*hello section start*/
+.hello-section {
+    margin-top: 30px;
+}
+.hello-section h1 {
+    color: #F86449;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.hello-section p {
+    font-size: 1.7rem;
+}
+/*hello section end*/
+
+/*my details section start*/
+.my-info-profile-img-wrapper {
+    border: 1px solid red;
+    position: relative;
+}
+.my-details-section .profile-image {
+    width: 650px;
+    height: 400px;
+    /*border: 1px solid red;*/
+    border-radius: 15px;
+    background-color: #D4D4D4;
+    /*background-image: url("../images/profile-pic.png");*/
+
+    background-image: url("../images/profile-pic-new.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.my-details-section .my-info {
+    width: 380px;
+    min-height: 760px;
+    background-color: #F86449;
+    border-radius: 15px;
+}
+.my-details-section .cmn-my-info-ul {
+    list-style: none;
+    color: white;
+    padding-top: 30px;
+}
+.my-details-section .social-icon-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.my-details-section .social-icon-ul li{
+    padding-right: 12px;
+}
+.my-details-section .xp-down-btn-section {
+    width: 650px;
+    height: 340px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.my-details-section .xp-sec {
+    width: 580px;
+    height: 250px;
+    /*border: 1px solid red;*/
+    display: flex;
+}
+.my-details-section .cmn-xp-sec {
+    flex: 1;
+    /*border: 1px solid red;*/
+}
+.my-details-section  .cmn-head-1{
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #661E1E;
+}
+.my-details-section .cmn-st-for-ex {
+    /*border: 1px solid red;*/
+    margin-bottom: 50px;
+}
+.my-details-section .cmn-head-no {
+    color: #F86449;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.my-details-section .btn-down-cv {
+    background-color: #F86449;
+    padding: 15px 265px;
+    margin-top: 33px;
+    color: white;
+}
+/*my details section end*/
