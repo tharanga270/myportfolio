@@ -37,11 +37,12 @@
 .my-info-profile-img-wrapper {
     border: 1px solid red;
     position: relative;
+    height: 760px;
 }
 .my-details-section .profile-image {
     width: 650px;
     height: 400px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     border-radius: 15px;
     background-color: #D4D4D4;
     /*background-image: url("../images/profile-pic.png");*/
@@ -56,9 +57,10 @@
 }
 .my-details-section .my-info {
     width: 380px;
-    min-height: 760px;
+    /*height: 760px;*/
     background-color: #F86449;
     border-radius: 15px;
+    padding-bottom: 24px;
 }
 .my-details-section .cmn-my-info-ul {
     list-style: none;
@@ -77,7 +79,7 @@
 .my-details-section .xp-down-btn-section {
     width: 650px;
     height: 340px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -85,12 +87,12 @@
 .my-details-section .xp-sec {
     width: 580px;
     height: 250px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     display: flex;
 }
 .my-details-section .cmn-xp-sec {
     flex: 1;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 .my-details-section  .cmn-head-1{
     text-transform: uppercase;
@@ -98,7 +100,7 @@
     color: #661E1E;
 }
 .my-details-section .cmn-st-for-ex {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     margin-bottom: 50px;
 }
 .my-details-section .cmn-head-no {
