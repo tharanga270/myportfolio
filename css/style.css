@@ -207,7 +207,7 @@
     color: black;
 }
 .page-navi .first-ch a {
-    background-color: #34495e;
+    background-color: #F86449;
     color: white !important;
 }
 /*portfolio contect section end*/
@@ -260,7 +260,7 @@
     border-radius: 100%;
 }
 .feedback-section-content .customer-img-cont span{
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
 }
 /*feedback section content start*/
