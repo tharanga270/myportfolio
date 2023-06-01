@@ -136,6 +136,8 @@
 
 .portfolio-card .portfolio-card-img {
     width: 100%;
+    /*add height to image*/
+    height: 230px;
 }
 
 .portfolio-card .portfolio-card-overlay {

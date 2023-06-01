@@ -36,6 +36,13 @@
 	}
 	/*my details section end*/
 
+	/*portfolio contect section start*/
+	.portfolio-card .portfolio-card-img {
+    	/*add height to image*/
+    	height: 180px;
+	}
+	/*portfolio contect section end*/
+
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -77,6 +84,10 @@
     .service-card {
         margin-bottom: 30px;
     }
+    .portfolio-card .portfolio-card-img {
+    	/*add height to image*/
+    	height: 160px;
+	}
 	/*portfolio contect section end*/
 }
 
@@ -107,4 +118,10 @@
 	}
 	/*my details section end*/
 
+	/*portfolio contect section start*/
+	.portfolio-card .portfolio-card-img {
+	    /*add height to image*/
+	    height: 260px;
+	}
+	/*portfolio contect section end*/
 }
