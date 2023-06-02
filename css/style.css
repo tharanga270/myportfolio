@@ -263,7 +263,50 @@
     font-size: 18px;
     font-style: italic;
 }
-/*feedback section content start*/
+/*feedback section content end*/
 
+
+
+
+
+
+
+
+/*contactus heading section start*/
+.contactus-heading-section h1 {
+    color: #661E1E;
+}
+.contactus-heading-section p {
+    font-size: 1.7rem;
+}
+/*contactus heading section end*/
+
+
+/*contactus section content start*/
+.contactus-section-content {
+        
+}
+.contactus-section-content input[type="text"],
+.contactus-section-content input[type="email"],
+.contactus-section-content textarea {
+    border-radius: 0;
+}
+.contactus-section-content textarea {
+    height: 130px;
+}
+.contactus-section-content .btn-send {
+    background-color: #F86449;
+    color: white;
+}
+.contactus-section-content .contact-wrapper {
+    width: 60%;
+}
+/*contactus section content end*/
+
+
+
+
+    
+    
 
 
