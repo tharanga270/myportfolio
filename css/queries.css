@@ -136,6 +136,16 @@
 	}
 	/*my details section end*/
 
+	/*technologies contect section start*/
+	.technologies-section-content {
+		height: 300px;
+		padding-left: 25px;
+	}
+	.technologies-section-content .owl-tech-carousel .item {
+		width: 185px;
+	}
+	/*technologies contect section end*/
+
 	/*portfolio contect section start*/
 	.portfolio-card .portfolio-card-img {
 	    /*add height to image*/
