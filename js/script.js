@@ -1,5 +1,5 @@
 $(function() {
-    $('.owl-carousel').owlCarousel({
+    $('.owl-tech-carousel').owlCarousel({
 	    loop:true,
 	    margin:10,
 	    autoplay:true,

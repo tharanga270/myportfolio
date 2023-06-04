@@ -62,9 +62,12 @@
 	.my-details-section .profile-image {
         width: 514px;
     	height: 320px;
+    	/*change 2*/
+    	/*top: -720px;*/
 	}
 	.my-info-profile-img-wrapper {
-    	height: 1500px;
+    	/*change 3*/
+    	height: 1500px !important;
 	}
 	.my-details-section .my-info {
     	width: 507px;
@@ -113,6 +116,7 @@
 @media only screen and (max-width: 480px){
 	/*my details section start*/
 	.my-info-profile-img-wrapper {
+    	/*change 4*/
     	height: 1510px;
 	}
 	.my-details-section .xp-sec {
@@ -121,8 +125,12 @@
 	    margin-top: -295px;
 	}
 	.my-details-section .profile-image {
+    	/*change 5*/
     	width: 453px;
     	height: 320px;
+    	/*width: 430px;
+    	height: 295px;
+    	left: 12px;*/
 	}
 	.my-details-section .my-info {
     	width: 452px;
