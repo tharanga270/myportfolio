@@ -36,7 +36,7 @@
 /*my details section start*/
 .my-info-profile-img-wrapper {
     /*change 1*/
-    border: 1px solid white;
+    border: 1px solid transparent;
     position: relative;
     height: 760px !important;
 }
@@ -300,13 +300,6 @@
 }
 /*feedback section content end*/
 
-
-
-
-
-
-
-
 /*contactus heading section start*/
 .contactus-heading-section h1 {
     color: #661E1E;
@@ -344,7 +337,65 @@
     padding-bottom: 35px;
 }
 
+/*fine food page style and organic page style start*/
+header .btn-backhome {
+    /*#F86449*/
+    background-color: #F86449 !important; 
+    border: none;
+}
 
+/*===================*/
+.cmn-inner-pages-heading-section h1 {
+    color: #661E1E;
+    
+}
+.cmn-inner-pages-heading-section p {
+    font-size: 1.7rem;
+}
+/*===================*/
+.cmn-inner-pages-carousel-section-content {
+    width: 100%;
+    height: 320px;
+    /*border: 1px solid red;*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../images/tech-section-img.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/tech-section-img.webp");
+    background-size: cover;
+    /*color: #fff;*/
+    background-attachment: fixed;
+    width: 100%;
+    /*height: auto;*/
+    /*padding-bottom: 50px;*/
+    padding-top: 30px;
+}
+.cmn-inner-pages-carousel-section-content .owl-cmn-inner-pages-carousel .item {
+    width: 350px;
+    margin-top: 40px;
+}
+/*======================*/
+.cmn-inner-pages-about-project-heading-section h1 {
+    color: #661E1E;
+    
+}
+.cmn-inner-pages-about-project-heading-section p {
+    font-size: 1.7rem;
+}
+/*======================*/
+.cmn-inner-pages-about-project-content-section h1 {
+    color: #661E1E;
+    font-size: 1.7rem;
+}
+.cmn-inner-pages-about-project-content-section .text-bg-color-cmn {
+    background-color: #F86449 !important;
+    color: white !important;
+    padding: 7px 20px;
+}
+.cmn-inner-pages-about-project-content-section .fa-live-link {
+    color: #F86449;
+}
+.cmn-inner-pages-about-project-content-section .cmn-fine-food-site-links {
+    color: #F86449;
+}
+/*fine food page style and organic page style end*/
 
 
     

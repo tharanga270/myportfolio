@@ -1,12 +1,10 @@
 
 
-/* Big tablets and Desktop displays: from 1024 to 1200px */
 @media only screen and (max-width: 1200px){
 	
 
 }
 
-/* Small tablets and big tablets: from 768px to 1023px */
 @media only screen and (max-width: 1023px){
 	/*my details section start*/
 	.my-details-section .profile-image {
@@ -54,14 +52,25 @@
 
 	/*feedback section content end*/
 
+	/*fine food page style and organic page style start*/
+	.cmn-inner-pages-carousel-section-content {
+		padding-top: 20px;
+		height: 350px;
+	}
+	.cmn-inner-pages-carousel-section-content .owl-cmn-inner-pages-carousel .item {
+    	width: 430px;
+	}
+	/*fine food page style and organic page style end*/
+
 }
 
-/* Small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
 	/*my details section start*/
 	.my-details-section .profile-image {
         width: 514px;
     	height: 320px;
+    	/*============*/
+    	left: 90px;
     	/*change 2*/
     	/*top: -720px;*/
 	}
@@ -72,10 +81,13 @@
 	.my-details-section .my-info {
     	width: 507px;
     	margin-top: 735px;
+    	margin-left: 90px;
 	}
 	.my-details-section .xp-down-btn-section {
     	bottom: 530px;
     	width: 512px;
+    	/*==============*/
+    	left: 90px;
 	}
 	.my-details-section .xp-sec {
     	width: 495px;
@@ -110,14 +122,25 @@
     	margin-top: 50px;
 	}
 	/*feedback section content end*/
+
+	/*fine food page style and organic page style start*/
+	.cmn-inner-pages-carousel-section-content {
+		height: 485px;
+	}
+	.cmn-inner-pages-carousel-section-content .owl-cmn-inner-pages-carousel .item {
+    	width: 690px;
+	}
+	/*fine food page style and organic page style end*/
+
+
+
 }
 
-/* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px){
 	/*my details section start*/
 	.my-info-profile-img-wrapper {
     	/*change 4*/
-    	height: 1510px;
+    	/*height: 1510px;*/
 	}
 	.my-details-section .xp-sec {
     	width: 448px;
@@ -128,13 +151,22 @@
     	/*change 5*/
     	width: 453px;
     	height: 320px;
+    	/*===========*/
+    	left: 4px;
     	/*width: 430px;
     	height: 295px;
     	left: 12px;*/
 	}
+	.my-details-section .xp-down-btn-section {
+    	bottom: 530px;
+    	width: 512px;
+    	/*==============*/
+    	left: -55px;
+	}
 	.my-details-section .my-info {
     	width: 452px;
     	margin-top: 735px;
+    	margin-left: 0;
 	}
 	.my-details-section .btn-down-cv {
 	    padding-top: 15px;
@@ -170,4 +202,13 @@
     	font-size: 14px;
 	}
 	/*feedback section content end*/
+
+	/*fine food page style and organic page style start*/
+	.cmn-inner-pages-carousel-section-content {
+		height: 365px;
+	}
+	.cmn-inner-pages-carousel-section-content .owl-cmn-inner-pages-carousel .item {
+    	width: 460px;
+	}
+	/*fine food page style and organic page style end*/
 }
