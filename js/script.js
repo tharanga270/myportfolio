@@ -45,4 +45,17 @@ $(function() {
 	        },
 	    }
 	});
+
+	//============================
+	$(window).scroll(function() {
+	    if ($(this).scrollTop() > 1500) {
+	        $('.scrollToTop').fadeIn();
+	    } else {
+	        $('.scrollToTop').fadeOut();
+	    }
+	});
+
+	$(".scrollToTop").click(function() {
+	    $("html, body").animate({scrollTop: 0}, 1000);
+	 });
 });
