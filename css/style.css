@@ -28,8 +28,10 @@
     font-weight: bold;
     margin-bottom: 0;
 }
-.hello-section p {
-    font-size: 1.7rem;
+.hello-section p,
+.hello-section span {
+    font-size: 1.7rem !important;
+    font-weight: lighter;
 }
 /*hello section end*/
 
