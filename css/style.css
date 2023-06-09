@@ -39,6 +39,7 @@
 .my-info-profile-img-wrapper {
     /*change 1*/
     border: 1px solid transparent;
+    /*border: 1px solid red;*/
     position: relative;
     height: 760px !important;
 }
