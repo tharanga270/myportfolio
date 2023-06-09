@@ -141,7 +141,7 @@
 
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 375px){
 	/*my details section start*/
 	.my-info-profile-img-wrapper {
     	/*change 4*/
@@ -149,38 +149,58 @@
     	height: 1255px !important;
 	}
 	.my-details-section .xp-sec {
-    	width: 448px;
-	    margin-left: 60px;
+    	/*width: 448px;
+	    margin-left: 60px;*/
 	    margin-top: -295px;
+        width: 320px;
+		margin-left: 67px;
 	}
 	.my-details-section .profile-image {
     	/*change 5*/
-    	width: 453px;
-    	height: 320px;
+    	/*width: 453px;
+    	height: 320px;*/
     	/*===========*/
-    	left: 4px;
+    	/*/left: 4px;*/
     	/*width: 430px;
     	height: 295px;
     	left: 12px;*/
+    	width: 330px;
+   	 	height: 300px;
+    	left: 10px;
 	}
 	.my-details-section .xp-down-btn-section {
     	/*bottom: 530px;*/
     	bottom: 280px;
-    	width: 512px;
+    	/*width: 512px;*/
+    	width: 395px;
+
     	/*==============*/
     	left: -55px;
 	}
 	.my-details-section .my-info {
-    	width: 452px;
-    	margin-top: 735px;
-    	margin-left: 0;
+    	/*width: 452px;*/
+    	/*margin-top: 735px;*/
+    	/*margin-left: 0;*/
+    	/*height: 500px;*/
+
+	    width: 325px;
+		margin-top: 735px;
+    	margin-left: 5px;
     	height: 500px;
+
 	}
 	.my-details-section .btn-down-cv {
-	    padding-top: 15px;
+	    /*padding-top: 15px;
 	    padding-bottom: 15px;
-	    padding-left: 138px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+*/
+	    padding: 15px 107px;
 	    margin-left: 58px;
+	    margin-top: 50px;
+	}
+	.my-details-section .cmn-head-no {
+    	font-size: 3rem;
 	}
 	/*my details section end*/
 
