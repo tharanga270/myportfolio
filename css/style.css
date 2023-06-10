@@ -71,6 +71,7 @@
     color: white;
     padding-top: 30px;
 }
+
 .my-details-section .social-icon-ul {
     list-style: none;
     margin: 0;
@@ -80,6 +81,11 @@
 .my-details-section .social-icon-ul li{
     padding-right: 12px;
 }
+/*=================*/
+.my-details-section .social-icon-ul li a {
+    color: white;
+}
+
 .my-details-section .xp-down-btn-section {
     width: 650px;
     height: 340px;
@@ -399,6 +405,13 @@ header .btn-backhome {
     color: #F86449;
 }
 /*fine food page style and organic page style end*/
+
+/*footer style start*/
+.port-footer a {
+    color: #F86449;
+    text-decoration: none;
+}
+/*footer style end*/
 
 /*scroll to up style start*/
 .scrollToTop{
