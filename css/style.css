@@ -83,7 +83,7 @@
 }
 /*=================*/
 .my-details-section .social-icon-ul li a {
-    color: white;
+    color: white !important;
 }
 
 .my-details-section .xp-down-btn-section {
@@ -340,11 +340,19 @@
 }
 /*contactus section content end*/
 
+/*footer style start*/
 .port-footer {
     color: white;
     padding-top: 40px;
     padding-bottom: 35px;
 }
+.port-footer a {
+    color: #F86449;
+    text-decoration: none;
+}
+/*footer style end*/
+
+
 
 /*fine food page style and organic page style start*/
 header .btn-backhome {
@@ -406,12 +414,7 @@ header .btn-backhome {
 }
 /*fine food page style and organic page style end*/
 
-/*footer style start*/
-.port-footer a {
-    color: #F86449;
-    text-decoration: none;
-}
-/*footer style end*/
+
 
 /*scroll to up style start*/
 .scrollToTop{
